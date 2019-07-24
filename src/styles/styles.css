@@ -1,0 +1,101 @@
+button:focus {outline:0;}
+
+.navbar-light .navbar-nav .nav-link:hover  {
+    color: #223179;
+}
+
+.navbar-light .navbar-nav .nav-link.activo {
+    color: #223179;
+}
+
+code:hover {
+    color: #223179;
+}
+
+.btn-profile {
+    background-color: #223179;
+    color: #ffffff;
+    border: 2px solid #223179;
+    padding: 5px;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    margin: 5px 5px 10px 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-profile:hover {
+    background-color: #ffffff;
+    color: #223179;
+}
+
+.btn-projects {
+    background-color: #223179;
+    color: #ffffff;
+    border: 2px solid #223179;
+    padding: 5px;
+    border-radius: 50px;
+    width: 100px;
+    height: 37px;
+    margin: 5px 5px 10px 5px;
+    font-size: 15px;
+}
+
+.btn-projects:hover {
+    background-color: #ffffff;
+    color: #223179;
+}
+
+.a-projects {
+    color: #ffffff; 
+}
+
+.a-projects:hover {
+    color: #223179; 
+}
+
+.bar {
+	fill: #223179;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #223179;
+  padding: 14px;
+  text-align: center;
+}
+
+.contact-icon {
+    color: #000000;
+}
+
+.contact-icon:hover {
+    color: #223179;
+}
+
+#walls {
+    margin: 5px auto;
+    border: 5px solid #223179;
+}
+
+.snake {
+    stroke: #ffffff;
+    fill: #000000;
+  }
+  .food {
+    stroke: #ffffff;
+    fill: #223179;
+  }
