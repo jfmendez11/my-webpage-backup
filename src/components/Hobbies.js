@@ -8,7 +8,7 @@ import soad from '../public/system-of-a-down1.jpg';
 import tallica from '../public/metallicaheavymontreal2017.jpg';
 import deth from '../public/megadethmast-1.jpg';
 import crime from '../public/04-A-Crime-On-Your-Hands.m4a';
-import millos from '../public/1200px-Escudo_Millos_70_años_2.svg.png';
+import millos from '../public/millos.png';
 import united from '../public/united.png';
 import sele from '../public/seleccion.png';
 

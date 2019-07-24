@@ -99,3 +99,7 @@ code:hover {
     stroke: #ffffff;
     fill: #223179;
   }
+
+  .container {
+    font-family: 'Darker Grotesque', sans-serif;
+  }

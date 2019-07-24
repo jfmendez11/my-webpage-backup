@@ -22,8 +22,7 @@ const style = {
         },
         card: {
             boxShadow: "2px 2px 10px -2px rgba(0,0,0,.5)",
-            borderRadius: "5px",
-            border: "2px solid #223179",
+            borderRadius: "3px",
             backgroundColor: "white",
             margin: "10px",
             padding: "15px",
