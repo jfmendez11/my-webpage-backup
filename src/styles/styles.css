@@ -63,6 +63,7 @@ code:hover {
   stroke: #D4D8DA;
   stroke-width: 1px;
   shape-rendering: crispEdges;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 .toolTip {
@@ -74,6 +75,7 @@ code:hover {
   border: 1px solid #223179;
   padding: 14px;
   text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 .contact-icon {
