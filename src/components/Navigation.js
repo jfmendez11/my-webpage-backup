@@ -115,13 +115,13 @@ class Navigation extends Component {
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                   <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav onSelect={k => this.handleSelect(k)}>
-                      <Nav.Link  eventKey="home" href="#home" className={this.state.selected === 'home' ? 'activo' : ''}>About Me</Nav.Link>
-                      <Nav.Link  eventKey="profile" href="#profile" className={this.state.selected === 'profile' ? 'activo' : ''}>Professional Profile</Nav.Link>
-                      <Nav.Link  eventKey="skills" href="#skills" className={this.state.selected === 'skills' ? 'activo' : ''}>Skills</Nav.Link>
-                      <Nav.Link  eventKey="projects" href="#projects" className={this.state.selected === 'projects' ? 'activo' : ''}>Projects</Nav.Link>
-                      <Nav.Link  eventKey="hobbies" href="#hobbies" className={this.state.selected === 'hobbies' ? 'activo' : ''}>Hobbies</Nav.Link>
-                      <Nav.Link  eventKey="contact" href="#contact" className={this.state.selected === 'contact' ? 'activo' : ''}>Contact</Nav.Link>
-                      <Nav.Link  eventKey="snake" href="#snake" className={this.state.selected === 'snake' ? 'activo' : ''}>Play Snake!</Nav.Link>
+                      <Nav.Link active={false} eventKey="home" href="#home" className={this.state.selected === 'home' ? 'activo' : ''}>About Me</Nav.Link>
+                      <Nav.Link active={false} eventKey="profile" href="#profile" className={this.state.selected === 'profile' ? 'activo' : ''}>Professional Profile</Nav.Link>
+                      <Nav.Link active={false} eventKey="skills" href="#skills" className={this.state.selected === 'skills' ? 'activo' : ''}>Skills</Nav.Link>
+                      <Nav.Link active={false} eventKey="projects" href="#projects" className={this.state.selected === 'projects' ? 'activo' : ''}>Projects</Nav.Link>
+                      <Nav.Link active={false} eventKey="hobbies" href="#hobbies" className={this.state.selected === 'hobbies' ? 'activo' : ''}>Hobbies</Nav.Link>
+                      <Nav.Link active={false} eventKey="contact" href="#contact" className={this.state.selected === 'contact' ? 'activo' : ''}>Contact</Nav.Link>
+                      <Nav.Link active={false} eventKey="snake" href="#snake" className={this.state.selected === 'snake' ? 'activo' : ''}>Play Snake!</Nav.Link>
                     </Nav>
                   </Navbar.Collapse>
                   <Navbar.Brand href="#home" onClick={event => this.handleSelect("home")} className="navigation"><code>{trademark} JuanFelipeMéndez</code></Navbar.Brand>
