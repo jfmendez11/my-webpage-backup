@@ -25,11 +25,9 @@ class AboutMe extends Component {
                                     <Image src={profile} style={style.aboutMe.profileImage}/>
                                 </Col>
                                 <Col md={{span: 11, offset: 1}} xs={{span: 11, offset: 1}}>
-                                    <button className="btn-profile">
-                                        <a className="a-projects" href={cv} target="_blank" rel="noopener noreferrer">
-                                            View My CV
-                                        </a>
-                                    </button> 
+                                    <a className="a-projects" href={cv} target="_blank" rel="noopener noreferrer">
+                                        <button className="btn-profile">View My CV</button> 
+                                    </a>
                                 </Col>
                             </Row>
                         </Col>
@@ -52,8 +50,8 @@ class AboutMe extends Component {
                                         <td><FontAwesomeIcon icon={faLaptopCode} size="3x"/></td>
                                         <td>
                                             <ul>
-                                                <li style={style.aboutMe.listIt}>Industrial Engineering</li>
-                                                <li style={style.aboutMe.listIt}>Systems and Computing Engineering</li>
+                                                <li>Industrial Engineering</li>
+                                                <li>Systems and Computing Engineering</li>
                                             </ul>
                                         </td>
                                     </tr>

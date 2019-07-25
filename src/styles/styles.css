@@ -22,7 +22,6 @@ code:hover {
     height: 50px;
     margin: 5px 5px 10px 5px;
     font-weight: bold;
-    font-size: 15px;
 }
 
 .btn-profile:hover {
@@ -34,12 +33,11 @@ code:hover {
     background-color: #223179;
     color: #ffffff;
     border: 2px solid #223179;
-    padding: 5px;
+    
     border-radius: 50px;
     width: 100px;
     height: 37px;
     margin: 5px 5px 10px 5px;
-    font-size: 15px;
 }
 
 .btn-projects:hover {
@@ -102,4 +100,5 @@ code:hover {
 
   .container {
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 110%;
   }

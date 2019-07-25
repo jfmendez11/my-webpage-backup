@@ -45,11 +45,7 @@ const style = {
         },
         info: {
             paddingTop: 15,
-            fontSize: 20,
         },
-        listIt: {
-            fontSize: 17,
-        }
     },
     profile: {
         theSpan: {

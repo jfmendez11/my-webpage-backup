@@ -28,11 +28,9 @@ class Projects extends Component {
                               and the buyer can win the auction by bidding this price. A match between the seller
                               and the winner buyer is made.
                             </Card.Text>
-                            <button className="btn-projects">
-                                <a className="a-projects" href="https://github.com/jfmendez11/coltix-auctions" target="_blank" rel="noopener noreferrer">
-                                    View Repo
-                                </a>
-                            </button>
+                              <a className="a-projects" href="https://github.com/jfmendez11/coltix-auctions" target="_blank" rel="noopener noreferrer">
+                                <button className="btn-projects">View Repo</button>
+                              </a>
                           </Card.Body>
                         </Card>
                         <Card style={style.projects.cardStyle}>
@@ -48,11 +46,9 @@ class Projects extends Component {
                               a different format than MP3 a worker transforms it to MP3. An email is sent to the participant
                               when the voice has converted and also to the winner when the contest is over.
                             </Card.Text>
-                            <button className="btn-projects">
-                                <a className="a-projects" href="https://github.com/jfmendez11/Grupo10" target="_blank" rel="noopener noreferrer">
-                                    View Repo
-                                </a>
-                            </button>
+                              <a className="a-projects" href="https://github.com/jfmendez11/Grupo10" target="_blank" rel="noopener noreferrer">
+                                <button className="btn-projects">View Repo</button>
+                              </a>
                           </Card.Body>
                         </Card>
                     </Row>  
